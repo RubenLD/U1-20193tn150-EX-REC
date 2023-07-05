@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <div>
+        <p>Registro productos</p>
+        <label>Nombre</label>
+        <input id="nombreInput" type="text">
+        <br>
+        <label>Precio</label>
+        <input id="precioInput" type="number">
+        <br>
+        <label>Cantidad</label>
+        <input id="cantidadInput" type="number">
+        <br>
+        <button onclick="agregarProducto()">Agregar</button>
+        <br>
+        <button onclick="totalPagar()">Cerrar carrito</button>
+    </div>
+    <div>
+        <p id="sub"></p>
+        <p id="total"></p>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
